@@ -200,3 +200,18 @@ h3 {
     border: solid #F9FAF8 1px;
     border-radius: 5px;
 }
+
+/* footer*/
+
+.mainfooter {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+}
+
+.footercopyright {
+    color:#F9FAF8;
+    font-size: 18px;
+}
