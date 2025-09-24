@@ -100,6 +100,10 @@ h3 {
 
 /*some random information section*/
 
+.sectionrandominformation {
+    padding: 50px;
+}
+
 .headingrandominformation {
     font-size: 36px;
     font-weight: 900;
@@ -150,7 +154,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 5vh 0;
+    margin: 10vh 0;
 }
 .mainqoute{
     font-size: 36px;
@@ -163,4 +167,36 @@ h3 {
     display: flex;
     justify-content: flex-end;
     font-weight: 700;
+}
+
+/* call to action section*/
+
+.calltoactionsection {
+    margin: 5vh 0;
+}
+
+.bluecalltoactionsection {
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.callheader {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.calltext {
+    font-size: 18px;
+    color:#E5E7EB
+}
+
+.callsignup {
+    margin-right: 50px;
+    padding: 4px 16px;
+    border: solid #F9FAF8 1px;
+    border-radius: 5px;
 }
